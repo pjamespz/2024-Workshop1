@@ -251,46 +251,37 @@ So, version control is like a magical camera for your projects. It lets you take
   - Let's go one further - it's time to (**commit**) a change to our repo branch
   - Commits are snapshots of progress, a save function
     - git commit -m "my first commit!"
+    - The '-m' argument lets you add a commit message in quotes - always make sure to include the argument and a message.
+    - If you don't, everything explodes (you open an archaic command line text editing tool)
+:::
+
+:::{.fragment .fade-in-then-out .absolute top=150}
+### Committing commits
   - Now, commits are still *local*.
   - To update your repo on the github website, we'll need to (**push**) our committed changes.
-  - Try git
+  - Try 'git push origin main'
+    - We're telling git to update the *origin* remote repository with all our commits to the *main* branch.
+:::
 
+## Off On The Right Foot
 
-## Basic Git Usage and Concepts - Lesson 1
+Congratulations... You're on your way!
+
+This little example sets the stage for working *solo* with GitHub, and version control in general.
+
+As we get closer to your capstone project, I'll walk through an explanation of (**branching**) and (**pulling**), and how to smooth out working in teams.
+
+## Basic Git Usage and Concepts - Visualized
 
 ### Adding and Committing
 
 ![](https://marklodato.github.io/visual-git-guide/basic-usage.svg){fig-align="center"}
 
-## Basic Git Usage and Concepts - Lesson 2
+## Git Build Flow, Visualized
 
 ### Branching
 
 ![](https://marklodato.github.io/visual-git-guide/conventions.svg){fig-align="center"}
-
-## Break (20 min)
-
-- Network
-- Discuss
-- Refresh
-
-## Working with Github - Lesson 3
-
-- **Explanation and Demonstration**: 
-  - What is GitHub?
-  - Pushing, Pulling
-  - Forks, clones, and pull requests. 
-- **Hands-on Practice**:
-  - Lesson 3 - add your picture to the yearbook!
-
-## Collaborating on Github
-
-- **Explanation and Demonstration (15 minutes)**:   
-  - GitHub issues and project boards. 
-  - Connecting fixes to issues.
-- **Hands-on Practice (25 minutes)**: 
-  - Create an issue related to your pull request and make a fix.
-
 
 ## Helpful Resources
 
@@ -303,7 +294,7 @@ So, version control is like a magical camera for your projects. It lets you take
 ## Thank You's
 
 - First of all, everyone for listening and participating
-- SoCal RUG and Organizers for having me
+- SoCal RUG and Sep for these materials
 - Developers behind these wonderful tools
   - Linus Torvalds, Junio Hamano, et. al. for `Git`
   - The software development community! 
